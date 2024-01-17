@@ -1,0 +1,29 @@
+ *{
+    margin:0;
+    padding:0;
+ }
+.header{
+    padding:32px;
+    text-align:center;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+    max-width: 1250px;
+    margin: 0 17%;
+    padding: 15px 10px;
+}
+.gallery::after {
+    width: 445px;
+}
+.gallery img {
+    width: 100%;
+    max-width: 450px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
